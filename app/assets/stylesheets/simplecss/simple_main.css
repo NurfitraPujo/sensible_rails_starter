@@ -298,7 +298,7 @@ select {
 
 select[multiple] {
   background-image: none !important;
-}
+}                                                 
 
 /* checkbox and radio button style */
 input[type="checkbox"],
