@@ -1,27 +1,45 @@
+/*:root {*/
+/*  --bg: theme("colors.amber.900");*/
+/*  --accent-bg: theme("colors.amber.800");*/
+/*  --text: theme("colors.amber.50");*/
+/*  --text-light: theme("colors.amber.100");*/
+/*  --border: theme("colors.amber.300");*/
+/*  --accent: theme("colors.zinc.400");*/
+/*  --code: theme("colors.amber.500");*/
+/*  --preformatted: theme("colors.amber.400");*/
+/*  --marked: theme("colors.teal.400");*/
+/*  --disabled: theme("colors.amber.800");*/
+/*}*/
+
+
 :root {
-  --bg: theme("colors.amber.900");
-  --accent-bg: theme("colors.amber.800");
-  --text: theme("colors.amber.50");
-  --text-light: theme("colors.amber.100");
-  --border: theme("colors.amber.300");
-  --accent: theme("colors.zinc.400");
-  --code: theme("colors.amber.500");
-  --preformatted: theme("colors.amber.400");
-  --marked: theme("colors.teal.400");
-  --disabled: theme("colors.amber.800");
+  --bg: 120 53 15;
+  --accent-bg: 146 64 14;
+  --text: 255 251 235;
+  --text-light: 254 243 138 ;
+  --border:  252 211 77;
+  --accent: 161 161 170 ;
+  --code: 245 158 11 ;
+  --preformatted: 251 191 36;
+  --marked: 45 212 191;
+  --disabled: 146 64 14;
 }
 
-@layer base {
-  :root {
-    --bg: 120 53 15;
-    --accent-bg: 146 64 14;
-    --text: 255 251 235;
-    --text-light: 254 243 138 ;
-    --border:  252 211 77;
-    --accent: 161 161 170 ;
-    --code: 245 158 11 ;
-    --preformatted: 251 191 36;
-    --marked: 45 212 191;
-    --disabled: 146 64 14;
-  }
-}
+
+
+/*@layer base {*/
+/*  :root {*/
+/*    --test: 255 0 0;*/
+/*    --test-hex: #FF0000;*/
+/*    --bg: theme("colors.amber.900");*/
+/*    --accent-bg: theme("colors.amber.800");*/
+/*    --text: theme("colors.amber.50");*/
+/*    --text-light: theme("colors.amber.100");*/
+/*    --border: theme("colors.amber.300");*/
+/*    --accent: theme("colors.zinc.400");*/
+/*    --code: theme("colors.amber.500");*/
+/*    --preformatted: theme("colors.amber.400");*/
+/*    --marked: theme("colors.teal.400");*/
+/*    --disabled: theme("colors.amber.800");*/
+/*  }*/
+/*}*/

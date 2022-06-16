@@ -1,12 +1,26 @@
 :root {
-  --bg: theme("colors.rose.900");
-  --accent-bg: theme("colors.rose.800");
-  --text: theme("colors.rose.50");
-  --text-light: theme("colors.rose.100");
-  --border: theme("colors.rose.300");
-  --accent: theme("colors.emerald.400");
-  --code: theme("colors.red.500");
-  --preformatted: theme("colors.rose.400");
-  --marked: theme("colors.indigo.300");
-  --disabled: theme("colors.rose.800");
+  /*--bg: theme("colors.rose.900");*/
+  /*--accent-bg: theme("colors.rose.800");*/
+  /*--text: theme("colors.rose.50");*/
+  /*--text-light: theme("colors.rose.100");*/
+  /*--border: theme("colors.rose.300");*/
+  /*--accent: theme("colors.emerald.400");*/
+  /*--code: theme("colors.red.500");*/
+  /*--preformatted: theme("colors.rose.400");*/
+  /*--marked: theme("colors.indigo.300");*/
+  /*--disabled: theme("colors.rose.800");*/
+
+
+  --bg: #881337;
+  --accent-bg: #9f1239;
+  --text: #fff1f2;
+  --text-light: #ffe4e6;
+  --border: #fda4af;
+  --accent: #34d399;
+  --code: #ef4444;
+  --preformatted: #fb7185;
+  --marked: #a5b4fc;
+  --disabled: #9f1239;
+
 }
+

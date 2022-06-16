@@ -1,14 +1,19 @@
+
+
 @import "tailwindcss/base";
 
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
 
+
 @import "fonts/font_selection.css";
+
+
 
 @import "simplecss/simpletails.css";
 
-@import "custom_colors/simpletails_color_select";
+@import "simplecss/simpletails_color_select";
 
 .field {
   margin-bottom: 1rem;

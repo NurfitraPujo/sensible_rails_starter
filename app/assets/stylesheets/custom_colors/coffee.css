@@ -1,10 +1,4 @@
 :root {
-    /* Set sans-serif & mono fonts */
-    --sans-font: "Intervar", -apple-system, BlinkMacSystemFont, "Avenir Next",
-    Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica,
-    "Helvetica Neue", sans-serif;
-    --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-
     /* Default theme */
     --bg: theme("colors.stone.900");
     --accent-bg: theme("colors.stone.800");

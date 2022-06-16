@@ -188,9 +188,6 @@ GEM
       ruby-progressbar (~> 1.4)
     globalid (1.0.0)
       activesupport (>= 5.0)
-    hotwire-livereload (1.1.0)
-      listen (>= 3.0.0)
-      rails (>= 6.0.0)
     hotwire-rails (0.1.3)
       rails (>= 6.0.0)
       stimulus-rails
@@ -471,7 +468,6 @@ DEPENDENCIES
   faker
   friendly_id (~> 5.4)
   fuubar
-  hotwire-livereload (~> 1.1)
   jsbundling-rails
   kredis
   letter_opener

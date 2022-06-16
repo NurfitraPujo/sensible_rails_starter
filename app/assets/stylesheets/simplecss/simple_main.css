@@ -1,13 +1,13 @@
 html {
   /* Set the font globally */
-  font-family: var(--sans-font);
+  font-family: rgb(var(--sans-font));
   scroll-behavior: smooth;
 }
 
 /* Make the body a nice central block */
 body {
-  color: var(--text);
-  background: var(--bg);
+  color: rgb(var(--text));
+  background: rgb(var(--bg));
   font-size: 1.15rem;
   line-height: 1.5;
   display: grid;
@@ -21,8 +21,8 @@ body > * {
 
 /* Make the header bg full width, but the content inline with body */
 body > header {
-  background: var(--accent-bg);
-  border-bottom: 1px solid var(--border);
+  background: rgb(var(--accent-bg));
+  border-bottom: 1px solid rgb(var(--border));
   text-align: center;
   padding: 0 0.5rem 2rem 0.5rem;
   grid-column: 1 / -1;
@@ -47,10 +47,10 @@ main {
 body > footer {
   margin-top: 4rem;
   padding: 2rem 1rem 1.5rem 1rem;
-  color: var(--text-light);
+  color: rgb(var(--text-light));
   font-size: 0.9rem;
   text-align: center;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid rgb(var(--border));
 }
 
 /* Format headers */
@@ -109,7 +109,7 @@ h3 {
 /* Format links & buttons */
 a,
 a:visited {
-  color: var(--accent);
+  color: rgb(var(--accent));
 }
 
 a:hover {
@@ -123,9 +123,9 @@ input[type="reset"],
 input[type="button"] {
   border: none;
   border-radius: 5px;
-  background: var(--accent);
+  background: rgb(var(--accent));
   font-size: 1rem;
-  color: var(--bg);
+  color: rgb(var(--bg));
   padding: 0.7rem 0.9rem;
   margin: 0.5rem 0;
 }
@@ -147,7 +147,7 @@ input:disabled,
 textarea:disabled,
 select:disabled {
   cursor: not-allowed;
-  background-color: var(--disabled);
+  background-color: rgb(var(--disabled));
 }
 
 input[type="range"] {
@@ -183,17 +183,17 @@ nav {
 nav a,
 nav a:visited {
   margin: 0 1rem 0 0;
-  border: 1px solid var(--border);
+  border: 1px solid rgb(var(--border));
   border-radius: 5px;
-  color: var(--text);
+  color: rgb(var(--text));
   display: inline-block;
   padding: 0.1rem 1rem;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: var(--accent);
-  border-color: var(--accent);
+  color: rgb(var(--accent));
+  border-color: rgb(var(--accent));
 }
 
 /* Reduce nav side on mobile */
@@ -201,7 +201,7 @@ nav a:hover {
   nav a {
     border: none;
     padding: 0;
-    color: var(--accent);
+    color: rgb(var(--accent));
     text-decoration: underline;
     line-height: 1;
   }
@@ -209,8 +209,8 @@ nav a:hover {
 
 /* Format the expanding box */
 details {
-  background: var(--accent-bg);
-  border: 1px solid var(--border);
+  background: rgb(var(--accent-bg));
+  border: 1px solid rgb(var(--border));
   border-radius: 5px;
   margin: 1rem 0px;
 }
@@ -247,19 +247,19 @@ table {
 
 td,
 th {
-  border: 1px solid var(--border);
+  border: 1px solid rgb(var(--border));
   text-align: left;
   padding: 0.5rem;
 }
 
 th {
-  background: var(--accent-bg);
+  background: rgb(var(--accent-bg));
   font-weight: bold;
 }
 
 tr:nth-child(even) {
   /* Set every other cell slightly darker. Improves readability. */
-  background: var(--accent-bg);
+  background: rgb(var(--accent-bg));
 }
 
 table caption {
@@ -275,9 +275,9 @@ input {
   font-family: inherit;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
-  color: var(--text);
-  background: var(--bg);
-  border: 1px solid var(--border);
+  color: rgb(var(--text));
+  background: rgb(var(--bg));
+  border: 1px solid rgb(var(--border));
   border-radius: 5px;
   box-shadow: none;
   box-sizing: border-box;
@@ -289,8 +289,8 @@ input {
 
 /* Add arrow to drop-down */
 select {
-  background-image: linear-gradient(45deg, transparent 49%, var(--text) 51%),
-    linear-gradient(135deg, var(--text) 51%, transparent 49%);
+  background-image: linear-gradient(45deg, transparent 49%, rgb(var(--text) 51%)),
+    linear-gradient(135deg, rgb(var(--text)) 51%, transparent 49%);
   background-position: calc(100% - 20px), calc(100% - 15px);
   background-size: 5px 5px, 5px 5px;
   background-repeat: no-repeat;
@@ -313,7 +313,7 @@ input[type="radio"] {
 
 input[type="checkbox"]:checked,
 input[type="radio"]:checked {
-  background: var(--accent);
+  background: rgb(var(--accent));
 }
 
 input[type="checkbox"]:checked::after {
@@ -326,8 +326,8 @@ input[type="checkbox"]:checked::after {
   top: 0.05em;
   left: 0.18em;
   background: transparent;
-  border-right: solid var(--bg) 0.08em;
-  border-bottom: solid var(--bg) 0.08em;
+  border-right: solid rgb(var(--bg)) 0.08em;
+  border-bottom: solid rgb(var(--bg)) 0.08em;
   font-size: 1.8em;
   transform: rotate(45deg);
 }
@@ -340,7 +340,7 @@ input[type="radio"]:checked::after {
   border-radius: 100%;
   position: absolute;
   top: 0.125em;
-  background: var(--bg);
+  background: rgb(var(--bg));
   left: 0.125em;
   font-size: 32px;
 }
@@ -372,7 +372,7 @@ input[type="file"] {
 
 /* Misc body elements */
 hr {
-  color: var(--border);
+  color: rgb(var(--border));
   border-top: 1px;
   margin: 1rem auto;
 }
@@ -380,7 +380,7 @@ hr {
 mark {
   padding: 2px 5px;
   border-radius: 4px;
-  background: var(--marked);
+  background: rgb(var(--marked));
 }
 
 main img,
@@ -397,21 +397,21 @@ figure {
 
 figcaption {
   font-size: 0.9rem;
-  color: var(--text-light);
+  color: rgb(var(--text-light));
   margin-bottom: 1rem;
 }
 
 blockquote {
   margin: 2rem 0 2rem 2rem;
   padding: 0.4rem 0.8rem;
-  border-left: 0.35rem solid var(--accent);
-  color: var(--text-light);
+  border-left: 0.35rem solid rgb(var(--accent));
+  color: rgb(var(--text-light));
   font-style: italic;
 }
 
 cite {
   font-size: 0.9rem;
-  color: var(--text-light);
+  color: rgb(var(--text-light));
   font-style: normal;
 }
 
@@ -423,13 +423,13 @@ kbd,
 samp {
   font-size: 1.075rem;
   font-family: var(--mono-font);
-  color: var(--code);
+  color: rgb(var(--code));
 }
 
 kbd {
-  color: var(--preformatted);
-  border: 1px solid var(--preformatted);
-  border-bottom: 3px solid var(--preformatted);
+  color: rgb(var(--preformatted));
+  border: 1px solid rgb(var(--preformatted));
+  border-bottom: 3px solid rgb(var(--preformatted));
   border-radius: 5px;
   padding: 0.1rem;
 }
@@ -439,15 +439,15 @@ pre {
   max-width: 100%;
   overflow: auto;
   overflow-x: auto;
-  color: var(--preformatted);
-  background: var(--accent-bg);
-  border: 1px solid var(--border);
+  color: rgb(var(--preformatted));
+  background: rgb(var(--accent-bg));
+  border: 1px solid rgb(var(--border));
   border-radius: 5px;
 }
 
 /* Fix embedded code within pre */
 pre code {
-  color: var(--preformatted);
+  color: rgb(var(--preformatted));
   background: none;
   margin: 0;
   padding: 0;

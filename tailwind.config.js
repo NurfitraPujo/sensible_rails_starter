@@ -1,38 +1,39 @@
 // /** @type {import('tailwindcss').Config} */
 
-// const colors = require('tailwindcss/colors')
-// const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme')
 
-module.exports = {
-  content: [
-    './app/views/**/*.html.erb',
-    './app/helpers/**/*.rb',
-    './app/assets/stylesheets/**/*.css',
-    './app/javascript/**/*.js'
-  ],
-  theme: {
-    extend: {
-      colors: {
-        bg: 'rgb(var(--bg) / <alpha-value>)',
-        'accent-bg': 'rgb(var(--accent-bg) / <alpha-value>)',
-        text: 'rgb(var(--text) / <alpha-value>)',
-        'text-light': 'rgb(var(--text-light) / <alpha-value>)',
-        border: 'rgb(var(--border) / <alpha-value>)',
-        accent: 'rgb(var(--accent) / <alpha-value>)',
-        code: 'rgb(var(--code) / <alpha-value>)',
-        preformatted: 'rgb(var(--preformatted) / <alpha-value>)',
-        marked: 'rgb(var(--marked) / <alpha-value>)',
-        disabled: 'rgb(var(--disabled) / <alpha-value>)',
-      }
-    },
-    corePlugins: {
-      aspectRatio: false
-    },
-    plugins: [
-      require('@tailwindcss/typography'),
-      require('@tailwindcss/forms'),
-      require('@tailwindcss/aspect-ratio'),
-      require('@tailwindcss/line-clamp')
-    ]
+
+  module.exports = {
+    content: [
+      './app/views/**/*.html.erb',
+      './app/helpers/**/*.rb',
+      './app/assets/stylesheets/**/*.css',
+      './app/javascript/**/*.js'
+    ],
+    theme: {
+      extend: {
+        colors: {
+          bg: 'theme(colors.amber.900)',
+          'accent-bg': 'theme(colors.amber.800)',
+          text: 'theme(colors.amber.50)',
+          'text-light': 'theme(colors.amber.100)',
+          border: 'theme(colors.amber.300)',
+          accent: 'theme(colors.zinc.400)',
+          code: 'theme(colors.amber.500)',
+          preformatted: 'theme(colors.amber.400)',
+          marked: 'theme(colors.teal.400)',
+          disabled: 'theme(colors.amber.800)',
+        }
+      },
+      corePlugins: {
+        aspectRatio: false
+      },
+      plugins: [
+        require('@tailwindcss/typography'),
+        require('@tailwindcss/forms'),
+        require('@tailwindcss/aspect-ratio'),
+        require('@tailwindcss/line-clamp')
+      ]
+    }
   }
-}

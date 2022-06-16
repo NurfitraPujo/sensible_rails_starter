@@ -54,7 +54,7 @@ group :development do
   # Preview mail in browser instead of sending. (https://github.com/ryanb/letter_opener)
   gem "letter_opener"
   # Automatically reload Hotwire Turbo when app files are modified. (https://github.com/kirillplatonov/hotwire-livereload)
-  gem "hotwire-livereload", "~> 1.1"
+  # gem "hotwire-livereload", "~> 1.1"
   # Pretty print Ruby objects with proper indentation and colors (https://github.com/awesome-print/awesome_print)
   gem "awesome_print", "~> 1.9"
   # Colorize printed text on ANSI terminals (https://github.com/sickill/rainbow)
